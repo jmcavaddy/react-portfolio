@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
 import Resume from '../pages/Resume';
 import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
@@ -7,7 +6,7 @@ import Contact from '../pages/Contact';
 import Header from './Header';
 import Footer from './Footer';
 import '../styles/View.css';
-
+import projectsDb from '../projectsDb';
 
 export default function View() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -21,7 +20,7 @@ export default function View() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio projects={projectsDb} className="portfolio" />;
     }
     return <Contact />;
   };
