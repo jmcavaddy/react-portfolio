@@ -33,7 +33,7 @@ export default function View() {
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {/* Here we are calling the renderPage method which will return a component  */}
             {renderPage()}
-            <Footer className="footer" />
+            <Footer />
         </div>
   );
 }

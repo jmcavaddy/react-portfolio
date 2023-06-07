@@ -2,11 +2,12 @@ import React from "react";
 
 
 function Project(props) {
-    console.log(props);
+
     const project = props.currentProject;
+
     return (
-        <div className="container">
-            <div className="card d-flex">
+        <div className="container d-flex">
+            <div className="container card d-flex">
                 <div className="img-container">
                     <img alt={project.name} src={project.image} className="img-thumbnail" />
                 </div>
