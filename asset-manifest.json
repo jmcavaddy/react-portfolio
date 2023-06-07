@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.7c5d4f24.js",
+    "main.css": "/react-portfolio/static/css/main.e02deef0.css",
+    "main.js": "/react-portfolio/static/js/main.418fc3ee.js",
+    "static/media/John_McAvaddy_Resume.pdf": "/react-portfolio/static/media/John_McAvaddy_Resume.55304819284f1c733e76.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.7c5d4f24.js.map": "/react-portfolio/static/js/main.7c5d4f24.js.map"
+    "main.e02deef0.css.map": "/react-portfolio/static/css/main.e02deef0.css.map",
+    "main.418fc3ee.js.map": "/react-portfolio/static/js/main.418fc3ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.7c5d4f24.js"
+    "static/css/main.e02deef0.css",
+    "static/js/main.418fc3ee.js"
   ]
 }
