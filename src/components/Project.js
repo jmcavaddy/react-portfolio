@@ -19,10 +19,10 @@ function Project(props) {
                         <strong>Description:</strong> {project.description}
                     </li>
                     <li>
-                        <strong>Deployed:</strong> {project.deployed}
+                        <strong>Deployed:</strong> <a href={project.deployed}>Deployed</a>
                     </li>
                     <li>
-                        <strong>Repo:</strong> {project.repo}
+                        <strong>Repo:</strong> <a href={project.repo}>Repo</a>
                     </li>
                     </ul>
                 </div>
