@@ -41,17 +41,17 @@ export default function ContactForm() {
 
     return (
         <section>
-        <h1>Contact me</h1>
+        <h3>Contact me:</h3>
         <form id="contact-form" onSubmit={handleSubmit} >
-            <div>
+            <div className="pb-2">
             <label htmlFor="name">Name:</label>
             <input value={name} type="text" name="name" onChange={handleChange} onBlur={handleBlur} />
             </div>
-            <div>
+            <div className="pb-2">
             <label htmlFor="email">Email:</label>
             <input value={email} type="email" name="email" onChange={handleChange} onBlur={handleBlur} />
             </div>
-            <div>
+            <div className="pb-2">
             <label htmlFor="message">Message:</label>
             <input value={message} type="text" name="message" onChange={handleChange} onBlur={handleBlur} />
             </div>
