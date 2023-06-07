@@ -1,21 +1,27 @@
 import React from 'react';
+import resume from '../assets/John_McAvaddy_Resume.pdf';
 
-export default function Home() {
+
+export default function Resume() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <h1>Resume</h1>
+      <h3>Download my resume <a href={resume} download>here</a>!</h3>
+      <h3>Languages and libraries I have worked with include the following:</h3>
+      <ul>
+        <li>jQuery and Bootstrap</li>
+        <li>React and Handlebars</li>
+        <li>Node.js</li>
+        <li>Express.js, GraphQL, and Insomnia</li>
+        <li>MySQL and Sequelize</li>
+        <li>MongoDB and Mongoose</li>
+        <li>IndexedDB</li>
+        <li>Progressive Web Applications, Service Workers, and Webpack</li>
+        <li>Heroku</li>
+        <li>GitHub</li>
+        </ul>
     </div>
   );
 }
+
+

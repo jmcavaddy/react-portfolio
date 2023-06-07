@@ -16,3 +16,7 @@
     padding: 1rem;
     background-color: aqua;
 }
+
+.about img {
+    max-width: 25%;
+}
